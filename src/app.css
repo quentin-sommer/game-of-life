@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+.game-container {
+}
+.alive-cell {
+    background-color: #11999e;
+}
+.dead-cell {
+    background-color: #3c3c3c;
+}
+.edit {
+    cursor: pointer;
+}
+.edit:hover {
+    border: 1px solid white;
+}
