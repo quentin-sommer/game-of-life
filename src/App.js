@@ -129,7 +129,6 @@ class App extends Component {
   }
 
   toggleAlive = (idx) => {
-    console.log(idx)
     const newArray = [...this.state.cells]
     newArray[idx] = (newArray[idx] === 1) ? 0 : 1
     this.setState({
